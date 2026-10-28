@@ -1,0 +1,35 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+*.local
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database and index binaries (regenerated automatically)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/indexes/*.bin
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files (VS Code will manage its own or ignore user-specific settings)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
